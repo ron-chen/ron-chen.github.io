@@ -9,7 +9,8 @@
     
     <meta name="author" content="Ron Chen">
     
-    <meta name="description" content="了解Node.js
+    <meta name="description" content="##了解Node.js
+
 具有复杂逻辑的网站
 社交网络的大规模Web应用
 Web Socket服务器
@@ -19,12 +20,13 @@ Web Socket服务器
 客户端Javascript编译器
 带有图形用户界面的本地应用程序
 
-Node.js初体验
+##Node.js初体验
+
 I/O密集型项目
 nodejs官网
 程序实例:
 
-1234567var ">
+12345">
     
     
     
@@ -101,10 +103,11 @@ nodejs官网
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#了解Node-js"><span class="toc-number">1.</span> <span class="toc-text">了解Node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Node-js初体验"><span class="toc-number">2.</span> <span class="toc-text">Node.js初体验</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#学习日记"><span class="toc-number">3.</span> <span class="toc-text">学习日记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#异步式I/O与事件式编程"><span class="toc-number">3.1.</span> <span class="toc-text">异步式I/O与事件式编程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#事件循环"><span class="toc-number">3.2.</span> <span class="toc-text">事件循环</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#模块和包"><span class="toc-number">3.3.</span> <span class="toc-text">模块和包</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#模块"><span class="toc-number">3.3.1.</span> <span class="toc-text">模块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#包"><span class="toc-number">3.3.2.</span> <span class="toc-text">包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#包的发布"><span class="toc-number">3.3.3.</span> <span class="toc-text">包的发布</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#node-js调试"><span class="toc-number">3.4.</span> <span class="toc-text">node.js调试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#核心模块"><span class="toc-number">3.5.</span> <span class="toc-text">核心模块</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#全局变量"><span class="toc-number">3.5.1.</span> <span class="toc-text">全局变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#常用工具util"><span class="toc-number">3.5.2.</span> <span class="toc-text">常用工具util</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#事件驱动"><span class="toc-number">3.5.3.</span> <span class="toc-text">事件驱动</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#继承EventEmitter"><span class="toc-number">3.5.4.</span> <span class="toc-text">继承EventEmitter</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#文件系统_fs"><span class="toc-number">3.5.4.1.</span> <span class="toc-text">文件系统 fs</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#HTTP服务器与客户端"><span class="toc-number">3.5.4.2.</span> <span class="toc-text">HTTP服务器与客户端</span></a></li></ol></li></ol></li></ol></li></ol>
+		
 		</div>
 		
-		<h2 id="了解Node-js">了解Node.js</h2><ul>
+		<p>##了解Node.js</p>
+<ul>
 <li>具有复杂逻辑的网站</li>
 <li>社交网络的大规模Web应用</li>
 <li>Web Socket服务器</li>
@@ -114,13 +117,16 @@ nodejs官网
 <li>客户端Javascript编译器</li>
 <li>带有图形用户界面的本地应用程序</li>
 </ul>
-<h2 id="Node-js初体验">Node.js初体验</h2><ul>
+<p>##Node.js初体验</p>
+<ul>
 <li>I/O密集型项目</li>
 <li><a href="http://nodejs.org/" target="_blank" rel="external">nodejs官网</a></li>
 <li>程序实例:</li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</span><br><span class="line">http.createServer(<span class="function"><span class="keyword">function</span><span class="params">(req,res)</span></span>&#123;</span><br><span class="line">    res.writeHead(<span class="number">200</span>,&#123;<span class="string">'Content-Type'</span>:<span class="string">'text/html'</span>&#125;);</span><br><span class="line">    res.write(<span class="string">"&lt;h1&gt;Ron Chen&lt;/h1&gt;"</span>);</span><br><span class="line">    res.write(<span class="string">"&lt;p&gt;tech only&lt;/p&gt;"</span>);</span><br><span class="line">&#125;).listen(<span class="number">3000</span>);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">"HTTP Server is listening at port 3000 ."</span>);</span><br></pre></td></tr></table></figure>
-<h2 id="学习日记">学习日记</h2><h3 id="异步式I/O与事件式编程">异步式I/O与事件式编程</h3><p><code>阻塞</code> 线程无法及时调度,一般发生于同步式的I/O操作，例如磁盘读写,网络通信</p>
+<p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</span><br><span class="line">http.createServer(<span class="function"><span class="keyword">function</span><span class="params">(req,res)</span></span>&#123;</span><br><span class="line">    res.writeHead(<span class="number">200</span>,&#123;<span class="string">'Content-Type'</span>:<span class="string">'text/html'</span>&#125;);</span><br><span class="line">    res.write(<span class="string">"&lt;h1&gt;Ron Chen&lt;/h1&gt;"</span>);</span><br><span class="line">    res.write(<span class="string">"&lt;p&gt;tech only&lt;/p&gt;"</span>);</span><br><span class="line">&#125;).listen(<span class="number">3000</span>);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">"HTTP Server is listening at port 3000 ."</span>);</span><br></pre></td></tr></table></figure></p>
+<p>##学习日记</p>
+<p>###异步式I/O与事件式编程</p>
+<p><code>阻塞</code> 线程无法及时调度,一般发生于同步式的I/O操作，例如磁盘读写,网络通信</p>
 <table>
 <thead>
 <tr>
@@ -156,16 +162,25 @@ nodejs官网
 </tbody>
 </table>
 <hr>
-<h3 id="事件循环">事件循环</h3><blockquote>
-<p>Node.js程序由事件循环开始，到事件循环结束,所有的逻辑都是事件的回调函数。它没有显式的事件循环，事件循环通过Libev库实现，对开发者不可见,均被EventEmitter封装。<br>libev事件循环的每一次迭代,在Node.js中就是一次Tick,libev不断检查是否有活动的、可供检测的事件监听器，直到检测不到时才退出循环,进程结束。</p>
-</blockquote>
-<p><img src="http://ronchen.qiniudn.com/ronchenQQ截图20150113094124.png" alt="事件循环" title="事件循环"></p>
-<h3 id="模块和包">模块和包</h3><p>包:实现某个功能模块的集合,用户发布和维护。<br>模块：node.js应用程序的组成部分,文件和模块是一一对应的。</p>
-<h4 id="模块">模块</h4><p>exports: 模块公开的接口<br>require: 外部获取一个模块的接口,所获取模块的exports对象<br><code>注意:</code></p>
+<p>###事件循环</p>
 <blockquote>
-<p>require 类似于创建对象,但是实际上和对象又有本质的区别,因为require不会重复加载模块,也就是说,无论调用多少次require,获得的模块都是同一个;<br>exports 本身仅仅是一个普通的空对象,专门用来声明接口,本质上是通过它为模块闭包的内部建立一个有限的访问接口;</p>
+<p>Node.js程序由事件循环开始，到事件循环结束,所有的逻辑都是事件的回调函数。它没有显式的事件循环，事件循环通过Libev库实现，对开发者不可见,均被EventEmitter封装。
+libev事件循环的每一次迭代,在Node.js中就是一次Tick,libev不断检查是否有活动的、可供检测的事件监听器，直到检测不到时才退出循环,进程结束。</p>
 </blockquote>
-<h4 id="包">包</h4><ul>
+<p><img src="http://ronchen.qiniudn.com/ronchenQQ%E6%88%AA%E5%9B%BE20150113094124.png" alt="事件循环" title="事件循环"></p>
+<p>###模块和包
+包:实现某个功能模块的集合,用户发布和维护。
+模块：node.js应用程序的组成部分,文件和模块是一一对应的。
+####模块
+exports: 模块公开的接口
+require: 外部获取一个模块的接口,所获取模块的exports对象
+<code>注意:</code></p>
+<blockquote>
+<p>require 类似于创建对象,但是实际上和对象又有本质的区别,因为require不会重复加载模块,也就是说,无论调用多少次require,获得的模块都是同一个;
+exports 本身仅仅是一个普通的空对象,专门用来声明接口,本质上是通过它为模块闭包的内部建立一个有限的访问接口;</p>
+</blockquote>
+<p>####包</p>
+<ul>
 <li>package.json必须在包的顶层目录下;</li>
 <li>二进制文件应该在bin目录下;</li>
 <li>Javascript代码应该在lib目录下;</li>
@@ -188,9 +203,11 @@ nodejs官网
 <blockquote>
 <p>Node.js官方提供的包管理器,标准发布平台</p>
 </blockquote>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//本地模式</span></span><br><span class="line">npm [install/i] package_name </span><br><span class="line"><span class="comment">//全局模式</span></span><br><span class="line">npm [install/i] -g package_name</span><br></pre></td></tr></table></figure>
-<h4 id="包的发布">包的发布</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//生成规范的package.json</span></span><br><span class="line">npm init</span><br><span class="line"><span class="comment">//发布  [包管理]https://www.npmjs.com/</span></span><br><span class="line">npm publish</span><br><span class="line"><span class="comment">//取消发布</span></span><br><span class="line">npm unpublish</span><br></pre></td></tr></table></figure>
-<h3 id="node-js调试">node.js调试</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//打开调试终端</span></span><br><span class="line">node debug debug.js</span><br></pre></td></tr></table></figure>
+<p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//本地模式</span></span><br><span class="line">npm [install/i] package_name </span><br><span class="line"><span class="comment">//全局模式</span></span><br><span class="line">npm [install/i] -g package_name</span><br></pre></td></tr></table></figure></p>
+<p>####包的发布
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//生成规范的package.json</span></span><br><span class="line">npm init</span><br><span class="line"><span class="comment">//发布  [包管理]https://www.npmjs.com/</span></span><br><span class="line">npm publish</span><br><span class="line"><span class="comment">//取消发布</span></span><br><span class="line">npm unpublish</span><br></pre></td></tr></table></figure></p>
+<p>###node.js调试</p>
+<p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//打开调试终端</span></span><br><span class="line">node debug debug.js</span><br></pre></td></tr></table></figure></p>
 <hr>
 <ul>
 <li>run <code>执行脚本,在第一行暂停</code></li>
@@ -200,9 +217,9 @@ nodejs官网
 <li>step,s  <code>单步执行并进入函数</code></li>
 <li>out,o   <code>从函数中步出</code></li>
 <li>setBreakpoint(),sb() <code>当前行设置断点</code></li>
-<li>setBreakpoint(‘f{}’),sb(…) <code>在函数f第一行设置断点</code></li>
-<li>setBreakpoint(‘script.js’,20),sb(…) <code>在script.js的第一行设置断点</code></li>
-<li>clearBreakpoint(),cb(…) <code>清除所有断点</code></li>
+<li>setBreakpoint('f{}'),sb(...) <code>在函数f第一行设置断点</code></li>
+<li>setBreakpoint('script.js',20),sb(...) <code>在script.js的第一行设置断点</code></li>
+<li>clearBreakpoint(),cb(...) <code>清除所有断点</code></li>
 <li>backtrace,bt <code>显示当前调用栈</code></li>
 <li>list(5)  <code>显示当前执行到的前后5行代码</code></li>
 <li>watch(expr) <code>把表达式expr加入监视列表</code></li>
@@ -213,43 +230,50 @@ nodejs官网
 <li>scripts <code>显示当前已加载的所有脚本</code></li>
 <li>version <code>显示V8的版本</code></li>
 </ul>
-<h3 id="核心模块">核心模块</h3><h4 id="全局变量">全局变量</h4><p>global 是全局变量的宿主,定义变量使用var 区别于全局变量.</p>
+<p>###核心模块
+####全局变量
+global 是全局变量的宿主,定义变量使用var 区别于全局变量.</p>
 <p>process是一个全局变量,即Global对象属性.最常用的成员方法:</p>
 <ul>
 <li>process.argv 命令行参数数组</li>
 <li>process.stdout 标准输出流,通常使用<code>console.log</code></li>
 <li>process.stdin 标准输入流</li>
-<li>process.nextTick 为事件循环设置一项任务,在下次事件循环调响应时调用callback.不用使用setTimeout(fn,0)代替process.nextTick(callback)<br>console 控制台标准输出<ul>
+<li>process.nextTick 为事件循环设置一项任务,在下次事件循环调响应时调用callback.不用使用setTimeout(fn,0)代替process.nextTick(callback)
+console 控制台标准输出</li>
 <li>console.log() 类似于C语言printf()，多个参数输出，以换行结束</li>
 <li>console.error() 错误流输出,类似于console.log()</li>
 <li>console.trace() 输出当前调用栈</li>
 </ul>
-</li>
-</ul>
-<h4 id="常用工具util">常用工具util</h4><ul>
+<p>####常用工具util</p>
+<ul>
 <li>util.inherits(constructor,superConstructor)对象间原型继承函数</li>
 <li>util.inspect(object,[showHidden],[depth],[colors]) 将任意对象转换成为字符串</li>
 <li>util.isArray() , util.isRegExp() , util.isDate()</li>
 <li>util.isError() , util.format() , util.debug()</li>
 </ul>
-<h4 id="事件驱动">事件驱动</h4><p>events是Node.js最重要的模块，Node.js本身架构就是事件式的,而他提供了唯一的接口,堪称Node.js的基石</p>
+<p>####事件驱动
+events是Node.js最重要的模块，Node.js本身架构就是事件式的,而他提供了唯一的接口,堪称Node.js的基石</p>
 <hr>
 <ul>
 <li>events.EventEmitter 事件发射与事件监听器功能的封装;</li>
-<li>EventEmitter.on(event,listener) 为指定事件注册一个监听器;<ul>
+<li>EventEmitter.on(event,listener) 为指定事件注册一个监听器;
+<ul>
 <li>event:一个字符串;listener:回调函数;</li>
 </ul>
 </li>
-<li>EventEmitter.emit(event,[arg1],[arg2]…) 发射event事件;<ul>
+<li>EventEmitter.emit(event,[arg1],[arg2]...) 发射event事件;
+<ul>
 <li>传递可选参数到事件监听器的参数表</li>
 </ul>
 </li>
 <li>EventEmitter.once(event,listener) 为指定事件注册一个单次监听器;</li>
-<li>EventEmitter.removeListener(event,listener) 移除指定事件的某个监听器;<ul>
+<li>EventEmitter.removeListener(event,listener) 移除指定事件的某个监听器;
+<ul>
 <li>listener:必须是该事件已经注册过的监听器</li>
 </ul>
 </li>
-<li>EventEmitter.removeAllListener([event]) 移除所有事件的所有监听器;<ul>
+<li>EventEmitter.removeAllListener([event]) 移除所有事件的所有监听器;
+<ul>
 <li>如果event,则移除指定事件的所有监听器</li>
 </ul>
 </li>
@@ -257,20 +281,26 @@ nodejs官网
 </ul>
 <hr>
 <p><code>error事件</code>当我们遇到异常的时候通常会发射error事件,当error被发射时,EventEmitter规定如果没有响应的监听器,Node.js会把它当作异常,退出并打印调用栈.</p>
-<h4 id="继承EventEmitter">继承EventEmitter</h4><blockquote>
+<p>####继承EventEmitter</p>
+<blockquote>
 <p>只要是支持事件响应的核心模块都是EventEmitter的子类：fs,net,http</p>
 </blockquote>
-<h5 id="文件系统_fs">文件系统 fs</h5><blockquote>
-<p>fs模块是文件操作的封装,提供了文件的读取,写入,更名,删除,遍历目录,链接等POSIX文件系统操作.<br>fs模块中的所有操作都提供了异步的和同步的两个版本.</p>
+<p>#####文件系统 fs</p>
+<blockquote>
+<p>fs模块是文件操作的封装,提供了文件的读取,写入,更名,删除,遍历目录,链接等POSIX文件系统操作.
+fs模块中的所有操作都提供了异步的和同步的两个版本.</p>
 </blockquote>
 <p><code>列出常用的函数:</code></p>
 <ul>
-<li>fs.readFile:<ul>
+<li>fs.readFile:
+<ul>
 <li>调用方法:fs.readFile(filename,[encoding],[callback(err,data)])</li>
-<li>参数说明:<ul>
+<li>参数说明:
+<ul>
 <li>filename:[必选] 读取的文件名</li>
 <li>encoding:[可选] 文件的字符编码</li>
-<li>callback:[可选] 回调函数,接收文件内容<ul>
+<li>callback:[可选] 回调函数,接收文件内容
+<ul>
 <li>err : 有没有错误发生</li>
 <li>data:文件内容[如果指明encoding,data是一个字符串]</li>
 </ul>
@@ -433,33 +463,39 @@ nodejs官网
 </tbody>
 </table>
 <hr>
-<h5 id="HTTP服务器与客户端">HTTP服务器与客户端</h5><p>http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.</p>
+<p>#####HTTP服务器与客户端
+http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.</p>
 <blockquote>
 <p>服务器常用函数</p>
 </blockquote>
 <ul>
-<li><p>http.server</p>
+<li>
+<p>http.server</p>
 <ul>
 <li>request: 当客户端请求到来时,该事件被触发;</li>
 <li>connection: 当TCP连接建立时,该事件被触发,提供一个参数socket,为net.Socket的实例;</li>
 <li>close:当服务器关闭时,该事件被触发;</li>
 </ul>
 </li>
-<li><p>http.ServerRequest  HTTP请求的信息,HTTP请求一般分为:请求头(Request Header)和请求体(Request Body)</p>
+<li>
+<p>http.ServerRequest  HTTP请求的信息,HTTP请求一般分为:请求头(Request Header)和请求体(Request Body)</p>
 <ul>
 <li>data: 当请求数据到来时,该事件被触发;</li>
 <li>end: 当请求体数据传输完成时,该事件被触发,此后将不会再有数据到来;</li>
 <li>close:用户当前请求结束时,该事件被触发;</li>
 </ul>
 </li>
-<li><p>http.ServerResponse 返回给客户端的信息</p>
+<li>
+<p>http.ServerResponse 返回给客户端的信息</p>
 <ul>
-<li>response.writeHead(statusCode,[headers]): 请求响应头<ul>
+<li>response.writeHead(statusCode,[headers]): 请求响应头
+<ul>
 <li>statusCode: HTTP的状态码</li>
 <li>headers:数组对象</li>
 </ul>
 </li>
-<li>response.write(data,[encoding]): 向请求的客户端发送响应内容<ul>
+<li>response.write(data,[encoding]): 向请求的客户端发送响应内容
+<ul>
 <li>data:一个Buffer或者字符串</li>
 <li>encoding:编码方式,默认 utf-8</li>
 </ul>
@@ -472,31 +508,36 @@ nodejs官网
 <p>客户端常用函数</p>
 </blockquote>
 <ul>
-<li><p>http.request(options,callback)  发起请求,返回一个http.ClientRequest实例</p>
+<li>
+<p>http.request(options,callback)  发起请求,返回一个http.ClientRequest实例</p>
 <ul>
-<li>options:  参数的关联数组<ul>
+<li>options:  参数的关联数组
+<ul>
 <li>host: 网站域名或者IP地址</li>
 <li>port：网站端口</li>
 <li>method: 请求方法,默认是GET</li>
-<li>path: 请求相对根的目录,默认是”/“</li>
+<li>path: 请求相对根的目录,默认是&quot;/&quot;</li>
 <li>headers: 一个关联数组对象,请求头的内容</li>
 </ul>
 </li>
 <li>callback: 传递Http.ClientResponse参数</li>
 </ul>
 </li>
-<li><p>http.get(options,callback) 更加简洁的办法处理GET请求</p>
+<li>
+<p>http.get(options,callback) 更加简洁的办法处理GET请求</p>
 </li>
 </ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</span><br><span class="line">http.get(&#123;host:<span class="string">"www.chenrongrong.com"</span>&#125;,<span class="function"><span class="keyword">function</span><span class="params">(res)</span></span>&#123;</span><br><span class="line">    res.setEncoding(<span class="string">'utf-8'</span>);</span><br><span class="line">    res.on(<span class="string">'data'</span>,<span class="function"><span class="keyword">function</span><span class="params">(data)</span></span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(data);</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</span><br><span class="line">http.get(&#123;host:<span class="string">"www.chenrongrong.com"</span>&#125;,<span class="function"><span class="keyword">function</span><span class="params">(res)</span></span>&#123;</span><br><span class="line">    res.setEncoding(<span class="string">'utf-8'</span>);</span><br><span class="line">    res.on(<span class="string">'data'</span>,<span class="function"><span class="keyword">function</span><span class="params">(data)</span></span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(data);</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
 <ul>
-<li><p>http.ClientRequest 表示一个已经产生而且正在进行中的HTTP请求</p>
+<li>
+<p>http.ClientRequest 表示一个已经产生而且正在进行中的HTTP请求</p>
 <ul>
 <li>request.abort() 终止正在发送的请求</li>
 <li>request.setTimeout(timeout,[callback]) 设置请求超时时间,timeout为毫秒数,请求超时之后,callback()将会被调用</li>
 </ul>
 </li>
-<li><p>http.clientResponse 表示请求结果状态</p>
+<li>
+<p>http.clientResponse 表示请求结果状态</p>
 <ul>
 <li>response.setEncoding([encoding]) : 设置默认编码</li>
 <li>response.pause() : 暂停接收数据和发送事件,方便下载功能</li>
@@ -588,7 +629,7 @@ nodejs官网
 
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#了解Node-js"><span class="toc-number">1.</span> <span class="toc-text">了解Node.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Node-js初体验"><span class="toc-number">2.</span> <span class="toc-text">Node.js初体验</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#学习日记"><span class="toc-number">3.</span> <span class="toc-text">学习日记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#异步式I/O与事件式编程"><span class="toc-number">3.1.</span> <span class="toc-text">异步式I/O与事件式编程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#事件循环"><span class="toc-number">3.2.</span> <span class="toc-text">事件循环</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#模块和包"><span class="toc-number">3.3.</span> <span class="toc-text">模块和包</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#模块"><span class="toc-number">3.3.1.</span> <span class="toc-text">模块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#包"><span class="toc-number">3.3.2.</span> <span class="toc-text">包</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#包的发布"><span class="toc-number">3.3.3.</span> <span class="toc-text">包的发布</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#node-js调试"><span class="toc-number">3.4.</span> <span class="toc-text">node.js调试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#核心模块"><span class="toc-number">3.5.</span> <span class="toc-text">核心模块</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#全局变量"><span class="toc-number">3.5.1.</span> <span class="toc-text">全局变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#常用工具util"><span class="toc-number">3.5.2.</span> <span class="toc-text">常用工具util</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#事件驱动"><span class="toc-number">3.5.3.</span> <span class="toc-text">事件驱动</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#继承EventEmitter"><span class="toc-number">3.5.4.</span> <span class="toc-text">继承EventEmitter</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#文件系统_fs"><span class="toc-number">3.5.4.1.</span> <span class="toc-text">文件系统 fs</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#HTTP服务器与客户端"><span class="toc-number">3.5.4.2.</span> <span class="toc-text">HTTP服务器与客户端</span></a></li></ol></li></ol></li></ol></li></ol>
+  
   </div>
 
 <div id="asidepart">
