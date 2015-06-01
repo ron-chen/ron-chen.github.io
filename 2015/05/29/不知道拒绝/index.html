@@ -4,15 +4,12 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>功能树 | 彳亍</title>
+    <title>不知道拒绝 | 彳亍</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Ron Chen">
     
-    <meta name="description" content="功能树，作为管理信息系统的一种树型结构，将系统的功能采用图形的方式显示出来，方便团队成员信息共享。根据不同级别的需求人员，需求文档略有不同。架构师的工作就是将不同级别的需求人员整理出来的文档进行提取出适合团队的功能树结构。
-
-&amp;lt;!--more--&amp;gt;
-这是我最近研究《软件架构设计》得出的一">
+    <meta name="description" content="最近，回想起来总觉得自己很忙，各种事情不断的围绕在身边，这事那事感觉一直很忙碌的感觉，但是找不到一件成功的事情，是不是有点不对劲？答案是肯定的。稍微找到了一个能安慰自己的方法，就是感觉自己不会拒绝，因为年轻，感觉自己精力充沛，什么事情都能干，什么事情都能干成的说法。对待软件开发的状态一直是错的，找个">
     
     
     
@@ -72,15 +69,15 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2013/12/15/功能树/" title="功能树" itemprop="url">功能树</a>
+      <a href="/2015/05/29/不知道拒绝/" title="不知道拒绝" itemprop="url">不知道拒绝</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://ron-chen.github.io" title="Ron Chen">Ron Chen</a>
     </p>
   <p class="article-time">
-    <time datetime="2013-12-15T02:50:59.000Z" itemprop="datePublished">2013-12-15</time>
-    更新日期:<time datetime="2015-03-31T01:23:48.000Z" itemprop="dateModified">2015-03-31</time>
+    <time datetime="2015-05-29T04:52:50.000Z" itemprop="datePublished">2015-05-29</time>
+    更新日期:<time datetime="2015-05-29T05:01:52.000Z" itemprop="dateModified">2015-05-29</time>
     
   </p>
 </header>
@@ -92,52 +89,20 @@
 		
 		</div>
 		
-		<blockquote>
-<p>功能树，作为管理信息系统的一种树型结构，将系统的功能采用图形的方式显示出来，方便团队成员信息共享。根据不同级别的需求人员，需求文档略有不同。架构师的工作就是将不同级别的需求人员整理出来的文档进行提取出适合团队的功能树结构。</p>
-</blockquote>
-<p>&lt;!--more--&gt;
-这是我最近研究《软件架构设计》得出的一个结论。对于架构师，这是第一步工作，细心程度直接影响下一步工作。学习到需求分析的方法阶段，系统的功能树提取。功能树比较关键也容易混淆，细心分析，才能总结出合理的功能树。不是需求人员做的事情，必须架构师完成。作为了解项目的第一步，能不能打造优秀的产品，初期的功能梳理工作显得至关重要，关系到项目的报价，甚至是最终的成败。</p>
-<p>功能树的展现基于架构师针对功能梳理给出的一份报告，包括功能点的类型，包括项目可能性的扩展，还需要确认项目的范围和边界，跟需求人员充分沟通，才能得出最终的功能树结构。这份功能树的目标人群是包括编码相关，前端设计师相关，数据库设计相关。功能点的提出体现出该项目设计的粗粒度，功能点的数量直接相关项目的最终报价。包括多个部分功能点的分析，其中包括人机交互分析，数据类型分析， 编程功能分析等等环节。从前期需求整理，目标人群，项目相关等多个环节，每一步都是体现功能树的价值点所在。</p>
-<p>&lt;i&gt; 顺便学习一下“软件项目中功能点法估算“的原理&lt;/i&gt;：</p>
-<blockquote>
-<p>功能点分析法(FPA:function point analysis)是在需求分析阶段基于系统功能的一种规模估算方法，是基于应用软件外部、内部特性以及软件性能的一种间接的规模测量。功能点分析的基本计数就是依据标准计算出的系统（或模块）中所含每一种元素的数目。</p>
-</blockquote>
-<p>功能点的估算中有5种信息域需要进行描述：其中事务类（EI、EO、EQ），数据存储类（ILF、EIF）</p>
-<p>1、外部输入数（EI：external input） 计算每一个用户输入，它们向软件提供面向应用的数据，（输入应该与查询区分开计算）；
-2、外部输出数（EO：external output） 计算每一个用户输出，它们向软件提供面向应用的信息，（输出是指报表，屏幕，出错信息等等）；
-3、外部查询数（EQ：external query） 一次查询被定义为一次联机输入，它导致软件以联机输出的方式产生实时的响应，（计算每一次不同的查询）；
-4、内部逻辑文件（ILF： internal logical file）计算每一个逻辑的主文件，如数据的一个逻辑组合，它可能是某个大型数据库的一部分或是一个独立的文件；
-5、外部接口文件（EIF：external interface file） 计算所有机器可读的接口，如磁带或者磁盘上的数据文件、利用这些接口可以将信息从一个系统传送到另一个系统；</p>
-<p>FP估算表包括：</p>
-<ul>
-<li>每一个测量参数的估算FP计数 = 估算值 * 加权因子</li>
-<li>项目估算FP = 各参数FP计数之和 * 复杂度调整因子</li>
-<li>估算生产率由经验获得</li>
-<li>估算工作量 = 项目估算FP / 估算生产率</li>
-<li>估算总成本 = 日薪 * 估算工作量</li>
-<li>单个FPA估算成本 = 估算总成本 / 估算FP</li>
-</ul>
-<p>【参考博客】http://blog.csdn.net/Last_Impression/article/details/4403503</p>
+		<p>最近，回想起来总觉得自己很忙，各种事情不断的围绕在身边，这事那事感觉一直很忙碌的感觉，但是找不到一件成功的事情，是不是有点不对劲？答案是肯定的。稍微找到了一个能安慰自己的方法，就是感觉自己不会拒绝，因为年轻，感觉自己精力充沛，什么事情都能干，什么事情都能干成的说法。对待软件开发的状态一直是错的，找个人做的项目，要么需求人根本不了解这个行业，一心只想着赚钱，哪里考虑自己的产品是不是真的有效，这些人提出的项目需求，一般都是根据现有的网站拼凑起来的，给你一句话，我想要一个类似于XX的网站，功能多么的简单，页面稍微改改什么什么的；</p>
+<p>针对产品这些人不会用心去对待，仅仅是一个工具，对数人对其成本觉得很低，几千到几万之间不等。还有一种就是赶着上线，在哪里买的源码或者从哪个公司带出来的源码等。又不知道里面到底是什么，什么功能到底实现成什么样子了，找一个半懂的人继续维护，帮我改成这样那样，一个月之后我们上线。</p>
+<p>....
+蹦蹦蹦，生活就是这样，兼职的工作比较难以权衡。</p>
   
 	</div>
 		<footer class="article-footer clearfix">
 
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/估值/">估值</a><a href="/tags/功能树/">功能树</a><a href="/tags/功能点/">功能点</a>
-  </div>
-
-
-<div class="article-categories">
-  <span></span>
-  <a class="article-category-link" href="/categories/项目管理/">项目管理</a>
-</div>
 
 
 
 <div class="article-share" id="share">
 
-  <div data-url="http://ron-chen.github.io/2013/12/15/功能树/" data-title="功能树 | 彳亍" data-tsina="2663573787" class="share clearfix">
+  <div data-url="http://ron-chen.github.io/2015/05/29/不知道拒绝/" data-title="不知道拒绝 | 彳亍" data-tsina="2663573787" class="share clearfix">
   </div>
 
 </div>
@@ -147,19 +112,11 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2014/06/04/项目拯救/" title="项目拯救">
-  <strong>上一篇:</strong><br/>
-  <span>
-  项目拯救</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2013/12/09/团队管理/"  title="团队管理">
+<a href="/2015/03/06/互联网式策划/"  title="互联网式策划">
  <strong>下一篇:</strong><br/> 
- <span>团队管理
+ <span>互联网式策划
 </span>
 </a>
 </div>
