@@ -4,7 +4,7 @@
   <subtitle><![CDATA[慢慢走，欣赏欣赏风景；散散步，放松放松心情；多一些禅意，多一些开通。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ron-chen.github.io/"/>
-  <updated>2015-05-29T05:01:52.000Z</updated>
+  <updated>2015-09-11T09:55:25.000Z</updated>
   <id>http://ron-chen.github.io/</id>
   
   <author>
@@ -13,6 +13,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[逆向工程]]></title>
+    <link href="http://ron-chen.github.io/2015/09/11/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    <id>http://ron-chen.github.io/2015/09/11/逆向工程/</id>
+    <published>2015-09-11T09:04:05.000Z</published>
+    <updated>2015-09-11T09:55:25.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>初步整理: 第二次因为项目接触逆向工程</p>
+</blockquote>
+<p>回想第一次反编译App的项目,针对一个技术功能点进行分析,整合到我们自己的App中,距今已经1年多了，临时接了这么个任务完全是因为领导的一时兴起(他说,懂Java是吧,手机App了解吗,现在有这么个功能需要实现,你去了解这个App实现方式)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>初步整理: 第二次因为项目接触逆向工程</p>
+</blockquote>
+<p>回想第一次反编译App的项目,针对一个技术功能点进行分析,整合到我们自己的App中,距今已经1年多了，临时接了这么个任务完全是因为领导的一时兴起(他说,懂Java是吧]]>
+    </summary>
+    
+      <category term="反编译" scheme="http://ron-chen.github.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
+    
+      <category term="逆向工程" scheme="http://ron-chen.github.io/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+      <category term="逆向工程" scheme="http://ron-chen.github.io/categories/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[不知道拒绝]]></title>
@@ -1017,7 +1043,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     <link href="http://ron-chen.github.io/2014/12/17/%E7%83%9B%E4%B9%8B%E6%B3%AA/"/>
     <id>http://ron-chen.github.io/2014/12/17/烛之泪/</id>
     <published>2014-12-17T03:42:18.000Z</published>
-    <updated>2015-03-31T01:23:50.000Z</updated>
+    <updated>2015-09-11T09:20:39.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>当烛光渐渐微弱，周围都将消失不见，余下的只有回忆！</p>
 </blockquote>
