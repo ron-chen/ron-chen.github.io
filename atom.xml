@@ -4,7 +4,7 @@
   <subtitle><![CDATA[多一些禅意，多一些开通。]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://ron-chen.github.io/"/>
-  <updated>2015-09-11T09:55:25.000Z</updated>
+  <updated>2016-01-21T04:43:01.000Z</updated>
   <id>http://ron-chen.github.io/</id>
   
   <author>
@@ -15,11 +15,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[决定写点什么]]></title>
+    <link href="http://ron-chen.github.io/2016/01/21/%E8%9A%82%E8%9A%81%E5%AF%B9%E8%AF%9D-%E5%86%B3%E5%AE%9A%E5%86%99%E7%82%B9%E4%BB%80%E4%B9%88/"/>
+    <id>http://ron-chen.github.io/2016/01/21/蚂蚁对话-决定写点什么/</id>
+    <published>2016-01-21T01:25:37.000Z</published>
+    <updated>2016-01-21T04:43:01.000Z</updated>
+    <content type="html"><![CDATA[<p>##蚂蚁对话
+&gt; 在知乎上搜索到一个话题，<a href="http://www.zhihu.com/question/19914819?sort=created" target="_blank" rel="external">#大家写博客的目的是什么</a>，各种情绪抒发，触动了我想写点什么的冲动。一切都不晚，从现在开始，坚持写点什么。模拟一个虚拟的对象进行实时对话。以这个思路制作这个系列的话题，侧重一些不成熟的想法对撞，希望能摩擦出绚丽火花。</p>
+<h3>和你只差点击的距离</h3>
+<p>你的圈子决定了你的收入。一句话赤裸裸的揭露你生活的档次，觉得自己被扒的一丝不挂。细细计算经常有联系的十个人，再粗略计算一下他们的平均收入水平，≈现在的收入。怎么办，我要扩宽我的朋友圈？要通过自己的兴趣去拓展除工作之外的关系圈，篮球？跑步？看书？技术？这些都是学生时代结束所能想到的自己定义给自己的兴趣点。个人的运动或者学习或者了解，都将堵死发展的空间，无法对外寻求更宽广的合作。互联网时代，分享一些新奇的观点，寻找一些技术解决方案，分享一些运动技巧，才能让自己看的更远，学的更广，追求更高。这种对话是一种寻找志同道合朋友的形式，比原始的交流方式针对沟通的内容方面能深入到一个层次。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>##蚂蚁对话
+&gt; 在知乎上搜索到一个话题，<a href="http://www.zhihu.com/question/19914819?sort=created" target="_blank" rel="external">#大家写博客的目的是什么</a>，各种情]]>
+    </summary>
+    
+      <category term="文字感官" scheme="http://ron-chen.github.io/categories/%E6%96%87%E5%AD%97%E6%84%9F%E5%AE%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[逆向工程]]></title>
     <link href="http://ron-chen.github.io/2015/09/11/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
     <id>http://ron-chen.github.io/2015/09/11/逆向工程/</id>
     <published>2015-09-11T09:04:05.000Z</published>
-    <updated>2015-09-11T09:55:25.000Z</updated>
+    <updated>2016-01-21T04:43:21.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>初步整理: 第二次因为项目接触逆向工程</p>
 </blockquote>
@@ -36,7 +56,7 @@
     
       <category term="逆向工程" scheme="http://ron-chen.github.io/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
     
-      <category term="逆向工程" scheme="http://ron-chen.github.io/categories/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+      <category term="技术文档" scheme="http://ron-chen.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -45,7 +65,7 @@
     <link href="http://ron-chen.github.io/2015/05/29/%E4%B8%8D%E7%9F%A5%E9%81%93%E6%8B%92%E7%BB%9D/"/>
     <id>http://ron-chen.github.io/2015/05/29/不知道拒绝/</id>
     <published>2015-05-29T04:52:50.000Z</published>
-    <updated>2015-05-29T05:01:52.000Z</updated>
+    <updated>2016-01-21T04:40:30.000Z</updated>
     <content type="html"><![CDATA[<p>最近，回想起来总觉得自己很忙，各种事情不断的围绕在身边，这事那事感觉一直很忙碌的感觉，但是找不到一件成功的事情，是不是有点不对劲？答案是肯定的。稍微找到了一个能安慰自己的方法，就是感觉自己不会拒绝，因为年轻，感觉自己精力充沛，什么事情都能干，什么事情都能干成的说法。对待软件开发的状态一直是错的，找个人做的项目，要么需求人根本不了解这个行业，一心只想着赚钱，哪里考虑自己的产品是不是真的有效，这些人提出的项目需求，一般都是根据现有的网站拼凑起来的，给你一句话，我想要一个类似于XX的网站，功能多么的简单，页面稍微改改什么什么的；</p>
 <p>针对产品这些人不会用心去对待，仅仅是一个工具，对数人对其成本觉得很低，几千到几万之间不等。还有一种就是赶着上线，在哪里买的源码或者从哪个公司带出来的源码等。又不知道里面到底是什么，什么功能到底实现成什么样子了，找一个半懂的人继续维护，帮我改成这样那样，一个月之后我们上线。</p>
 <p>....
@@ -55,6 +75,10 @@
     <![CDATA[<p>最近，回想起来总觉得自己很忙，各种事情不断的围绕在身边，这事那事感觉一直很忙碌的感觉，但是找不到一件成功的事情，是不是有点不对劲？答案是肯定的。稍微找到了一个能安慰自己的方法，就是感觉自己不会拒绝，因为年轻，感觉自己精力充沛，什么事情都能干，什么事情都能干成的说法。对待软件]]>
     </summary>
     
+      <category term="技术" scheme="http://ron-chen.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="管理经验" scheme="http://ron-chen.github.io/categories/%E7%AE%A1%E7%90%86%E7%BB%8F%E9%AA%8C/"/>
+    
   </entry>
   
   <entry>
@@ -62,7 +86,7 @@
     <link href="http://ron-chen.github.io/2015/03/06/%E4%BA%92%E8%81%94%E7%BD%91%E5%BC%8F%E7%AD%96%E5%88%92/"/>
     <id>http://ron-chen.github.io/2015/03/06/互联网式策划/</id>
     <published>2015-03-06T09:01:18.000Z</published>
-    <updated>2015-04-07T04:28:30.000Z</updated>
+    <updated>2016-01-21T04:40:22.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>我没有打算去收集各大土豪们的发红包活动，心里一直在蠢蠢欲动策划一些互联网活动，可惜自己才能有限，往往没有好的计划，空空的羡慕大公司的活动。</p>
 </blockquote>
@@ -93,7 +117,7 @@
     
       <category term="公众策划" scheme="http://ron-chen.github.io/tags/%E5%85%AC%E4%BC%97%E7%AD%96%E5%88%92/"/>
     
-      <category term="策划" scheme="http://ron-chen.github.io/categories/%E7%AD%96%E5%88%92/"/>
+      <category term="管理经验" scheme="http://ron-chen.github.io/categories/%E7%AE%A1%E7%90%86%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
@@ -102,7 +126,7 @@
     <link href="http://ron-chen.github.io/2015/01/29/MongoDB/"/>
     <id>http://ron-chen.github.io/2015/01/29/MongoDB/</id>
     <published>2015-01-29T02:20:48.000Z</published>
-    <updated>2015-03-31T01:23:47.000Z</updated>
+    <updated>2016-01-21T04:35:26.000Z</updated>
     <content type="html"><![CDATA[<p>##安装
 <a href="http://www.mongodb.org/" target="_blank" rel="external">MongoDB官网</a>
 <a href="http://www.mongodb.org/display/DOCS/Tutorial" target="_blank" rel="external">官方文档</a></p>
@@ -187,7 +211,7 @@
     
       <category term="语法" scheme="http://ron-chen.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
     
-      <category term="工具" scheme="http://ron-chen.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="技术文档" scheme="http://ron-chen.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -196,7 +220,7 @@
     <link href="http://ron-chen.github.io/2015/01/27/Makedown/"/>
     <id>http://ron-chen.github.io/2015/01/27/Makedown/</id>
     <published>2015-01-27T09:39:55.000Z</published>
-    <updated>2015-03-31T01:23:46.000Z</updated>
+    <updated>2016-01-21T04:32:27.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>Makedown是一种轻量级的标记语言，有没有让你想起HTML。那就对了，他们都是标记语言。相对于HTML,makedown的十分简单，常用的标记符号简单易记忆。</p>
 </blockquote>
@@ -310,7 +334,7 @@
     
       <category term="语法" scheme="http://ron-chen.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
     
-      <category term="工具" scheme="http://ron-chen.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="技术文档" scheme="http://ron-chen.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -319,7 +343,7 @@
     <link href="http://ron-chen.github.io/2015/01/12/php%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/"/>
     <id>http://ron-chen.github.io/2015/01/12/php常用函数/</id>
     <published>2015-01-12T07:14:25.000Z</published>
-    <updated>2015-03-31T01:23:47.000Z</updated>
+    <updated>2016-01-21T04:30:16.000Z</updated>
     <content type="html"><![CDATA[<p>##开发常用函数</p>
 <blockquote>
 <ul>
@@ -398,7 +422,7 @@
     
       <category term="开发" scheme="http://ron-chen.github.io/tags/%E5%BC%80%E5%8F%91/"/>
     
-      <category term="编程" scheme="http://ron-chen.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="技术文档" scheme="http://ron-chen.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -407,7 +431,7 @@
     <link href="http://ron-chen.github.io/2015/01/09/PHP%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83/"/>
     <id>http://ron-chen.github.io/2015/01/09/PHP编码规范/</id>
     <published>2015-01-09T09:19:50.000Z</published>
-    <updated>2015-03-31T01:23:47.000Z</updated>
+    <updated>2016-01-21T04:30:14.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>规范的代码在团队合作中尤其重要，很多开发人员不愿意看别人的代码，是因为种种管理规范的人员工作没有做好，最后都施加到了程序员身上去解决面对这些窘境。</p>
 </blockquote>
@@ -458,7 +482,7 @@
     
       <category term="规范" scheme="http://ron-chen.github.io/tags/%E8%A7%84%E8%8C%83/"/>
     
-      <category term="编码" scheme="http://ron-chen.github.io/categories/%E7%BC%96%E7%A0%81/"/>
+      <category term="技术文档" scheme="http://ron-chen.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -467,7 +491,7 @@
     <link href="http://ron-chen.github.io/2015/01/07/zencode/"/>
     <id>http://ron-chen.github.io/2015/01/07/zencode/</id>
     <published>2015-01-07T02:57:45.000Z</published>
-    <updated>2015-03-31T01:23:48.000Z</updated>
+    <updated>2016-01-21T04:30:12.000Z</updated>
     <content type="html"><![CDATA[<p>#常用语法
 程序员高效的工作少不了工具的帮助,特此为大家整理一个系列的工具篇</p>
 <blockquote>
@@ -538,7 +562,7 @@
     
       <category term="语法" scheme="http://ron-chen.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
     
-      <category term="工具" scheme="http://ron-chen.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="技术文档" scheme="http://ron-chen.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -547,7 +571,7 @@
     <link href="http://ron-chen.github.io/2014/12/31/Node-js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/"/>
     <id>http://ron-chen.github.io/2014/12/31/Node-js开发指南/</id>
     <published>2014-12-31T06:52:02.000Z</published>
-    <updated>2015-03-31T01:23:47.000Z</updated>
+    <updated>2016-01-21T04:30:18.000Z</updated>
     <content type="html"><![CDATA[<p>##了解Node.js</p>
 <ul>
 <li>具有复杂逻辑的网站</li>
@@ -1034,7 +1058,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     
       <category term="语言" scheme="http://ron-chen.github.io/tags/%E8%AF%AD%E8%A8%80/"/>
     
-      <category term="编程" scheme="http://ron-chen.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="技术文档" scheme="http://ron-chen.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -1043,7 +1067,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     <link href="http://ron-chen.github.io/2014/12/17/%E7%83%9B%E4%B9%8B%E6%B3%AA/"/>
     <id>http://ron-chen.github.io/2014/12/17/烛之泪/</id>
     <published>2014-12-17T03:42:18.000Z</published>
-    <updated>2015-09-11T09:20:39.000Z</updated>
+    <updated>2016-01-21T04:42:12.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>当烛光渐渐微弱，周围都将消失不见，余下的只有回忆！</p>
 </blockquote>
@@ -1073,7 +1097,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     
       <category term="锁" scheme="http://ron-chen.github.io/tags/%E9%94%81/"/>
     
-      <category term="文字" scheme="http://ron-chen.github.io/categories/%E6%96%87%E5%AD%97/"/>
+      <category term="文字感官" scheme="http://ron-chen.github.io/categories/%E6%96%87%E5%AD%97%E6%84%9F%E5%AE%98/"/>
     
   </entry>
   
@@ -1082,7 +1106,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     <link href="http://ron-chen.github.io/2014/11/26/%E6%9C%80%E9%81%A5%E8%BF%9C%E7%9A%84%E8%B7%9D%E7%A6%BB/"/>
     <id>http://ron-chen.github.io/2014/11/26/最遥远的距离/</id>
     <published>2014-11-26T03:15:00.000Z</published>
-    <updated>2015-03-31T01:23:50.000Z</updated>
+    <updated>2016-01-21T04:46:03.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://ronchen.qiniudn.com/longlongaway8d5494eef01f3a29b3d518b59925bc315c607ca8.jpg" alt="最遥远的距离剧照">
 一个机缘巧合的机会，我昨天在地铁上看了电影《最遥远的距离》。看到了不同职位的三个人因为对现状生活的不满意交织到了一起。企业白领，心理治疗师，录音师，他们都有一段不美满的恋爱甚至是婚姻。录音师在接受心理治疗之后的哭泣，引发了我的思考。</p>
 <ul>
@@ -1101,13 +1125,9 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
 一个机缘巧合的机会，我昨天在地铁上看了电影《最遥远的]]>
     </summary>
     
-      <category term="工作" scheme="http://ron-chen.github.io/tags/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="-电影 -生活 -工作" scheme="http://ron-chen.github.io/tags/%E7%94%B5%E5%BD%B1-%E7%94%9F%E6%B4%BB-%E5%B7%A5%E4%BD%9C/"/>
     
-      <category term="生活" scheme="http://ron-chen.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="电影" scheme="http://ron-chen.github.io/tags/%E7%94%B5%E5%BD%B1/"/>
-    
-      <category term="电影" scheme="http://ron-chen.github.io/categories/%E7%94%B5%E5%BD%B1/"/>
+      <category term="文字感官" scheme="http://ron-chen.github.io/categories/%E6%96%87%E5%AD%97%E6%84%9F%E5%AE%98/"/>
     
   </entry>
   
@@ -1116,7 +1136,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     <link href="http://ron-chen.github.io/2014/10/03/%E8%8A%B1%E6%9E%9C%E5%B1%B1/"/>
     <id>http://ron-chen.github.io/2014/10/03/花果山/</id>
     <published>2014-10-03T03:02:07.000Z</published>
-    <updated>2015-03-31T01:23:51.000Z</updated>
+    <updated>2016-01-21T04:42:55.000Z</updated>
     <content type="html"><![CDATA[<p>####花果山</p>
 <blockquote>
 <p>海外有一国土，名曰傲来国。国近大海，海中有一座名山，唤为花果山。此山乃十洲之祖脉，三岛之来龙，自开清浊而立，鸿蒙判后而成。</p>
@@ -1150,7 +1170,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     
       <category term="连云港" scheme="http://ron-chen.github.io/tags/%E8%BF%9E%E4%BA%91%E6%B8%AF/"/>
     
-      <category term="旅游" scheme="http://ron-chen.github.io/categories/%E6%97%85%E6%B8%B8/"/>
+      <category term="文字感官" scheme="http://ron-chen.github.io/categories/%E6%96%87%E5%AD%97%E6%84%9F%E5%AE%98/"/>
     
   </entry>
   
@@ -1159,7 +1179,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     <link href="http://ron-chen.github.io/2014/06/04/%E9%A1%B9%E7%9B%AE%E6%8B%AF%E6%95%91/"/>
     <id>http://ron-chen.github.io/2014/06/04/项目拯救/</id>
     <published>2014-06-04T08:49:38.000Z</published>
-    <updated>2015-03-31T01:23:51.000Z</updated>
+    <updated>2016-01-21T04:42:39.000Z</updated>
     <content type="html"><![CDATA[<h1>####拯救项目</h1>
 <blockquote>
 <p><em>项目失败每天都有不同的案例，这些事情对于个人来说都是崩溃的事情，如何监测和控制成为一种必须要研究的解决方案。</em> 今天就通过自己看到的书籍，网上大神的意见，综合自己的看法，写一个系列，剖析一下项目拯救的细节要素，希望今后的团队工作的开心，一起创造。</p>
@@ -1187,7 +1207,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     
       <category term="项目拯救" scheme="http://ron-chen.github.io/tags/%E9%A1%B9%E7%9B%AE%E6%8B%AF%E6%95%91/"/>
     
-      <category term="项目管理" scheme="http://ron-chen.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+      <category term="管理经验" scheme="http://ron-chen.github.io/categories/%E7%AE%A1%E7%90%86%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
@@ -1196,7 +1216,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     <link href="http://ron-chen.github.io/2013/12/15/%E5%8A%9F%E8%83%BD%E6%A0%91/"/>
     <id>http://ron-chen.github.io/2013/12/15/功能树/</id>
     <published>2013-12-15T02:50:59.000Z</published>
-    <updated>2015-03-31T01:23:48.000Z</updated>
+    <updated>2016-01-21T04:40:27.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>功能树，作为管理信息系统的一种树型结构，将系统的功能采用图形的方式显示出来，方便团队成员信息共享。根据不同级别的需求人员，需求文档略有不同。架构师的工作就是将不同级别的需求人员整理出来的文档进行提取出适合团队的功能树结构。</p>
 </blockquote>
@@ -1236,7 +1256,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     
       <category term="功能点" scheme="http://ron-chen.github.io/tags/%E5%8A%9F%E8%83%BD%E7%82%B9/"/>
     
-      <category term="项目管理" scheme="http://ron-chen.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+      <category term="管理经验" scheme="http://ron-chen.github.io/categories/%E7%AE%A1%E7%90%86%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
@@ -1245,7 +1265,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     <link href="http://ron-chen.github.io/2013/12/09/%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
     <id>http://ron-chen.github.io/2013/12/09/团队管理/</id>
     <published>2013-12-09T00:48:00.000Z</published>
-    <updated>2015-03-31T01:23:49.000Z</updated>
+    <updated>2016-01-21T04:40:35.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>昨天晚上遇到一个项目团队，一个开发，三个测试。有幸这家公司的老板也曾是我的上司，对其性格特点还是比较了解，让我去指导指导他们的开发团队。</p>
 </blockquote>
@@ -1273,7 +1293,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     
       <category term="规则" scheme="http://ron-chen.github.io/tags/%E8%A7%84%E5%88%99/"/>
     
-      <category term="项目管理" scheme="http://ron-chen.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+      <category term="管理经验" scheme="http://ron-chen.github.io/categories/%E7%AE%A1%E7%90%86%E7%BB%8F%E9%AA%8C/"/>
     
   </entry>
   
@@ -1282,7 +1302,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     <link href="http://ron-chen.github.io/2012/06/27/%E7%A0%81%E5%86%9C/"/>
     <id>http://ron-chen.github.io/2012/06/27/码农/</id>
     <published>2012-06-27T03:44:00.000Z</published>
-    <updated>2015-03-31T01:23:51.000Z</updated>
+    <updated>2016-01-21T04:42:49.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>潜龙勿用，借用易经中乾卦中的六个状态标记当前程序开发生涯的标志。定义的关键字是：码农。顾名思义，百度百科的解释：码农Coding Peasant(s)：一般指从事没有发展前景的软件开发职位，这种职位只能强化职业者在单方面的技术领域技能，学不到新技术，同时也是部分从事软件开发工作人员的一个自嘲的称号。一个依靠写代码为生的群体，表现在：低收入，工作时间长。</p>
 </blockquote>
@@ -1310,7 +1330,7 @@ http模块封装了一个高效的HTTP服务器和一个简易的HTTP客户端.<
     
       <category term="码农" scheme="http://ron-chen.github.io/tags/%E7%A0%81%E5%86%9C/"/>
     
-      <category term="编程" scheme="http://ron-chen.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="文字感官" scheme="http://ron-chen.github.io/categories/%E6%96%87%E5%AD%97%E6%84%9F%E5%AE%98/"/>
     
   </entry>
   
